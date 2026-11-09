@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 10px;
+}
+
+.bg-biru {
+    background-color: rgba(11, 81, 109);
+    color: aliceblue;
+}
+
+.bg-yellow {
+    background-color: rgb(11, 81, 109);
+    border: aliceblue;
+}
+
+.biru {
+    color: rgb(109, 99, 11);
+    border: solid 2px rgba(11, 81, 109);
+}
+
+.c-b {
+    color: rgba(11, 81, 109);
+}
+
+.fz-1 {
+    font-size: o.4rem;
+}
+
+.fz-2 {
+    font-size: 0.7rem;
+}
+
+.fz-3 {
+    font-size: 1rem;
+}
+
+.fz-4 {
+    font-size: 1.5rem;
+}
+
+.fz-5 {
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+/* ini pedding */
+.p-1 {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+.p-4 {
+    padding: 20px;
+}
+
+/* ini margin */
+.m-1 {
+    margin: 5px;
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+.m-3 {
+    margin: 15px;
+}
+
+.m-4 {
+    margin: 20px;
+}
+
+.m-5 {
+    margin: 25px;
+}
+
+/* ini margin bawa */
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 25px;
+}
+
+
+/* =================================
+   TAMBAHAN DESAIN WEBSITE
+================================= */
+
+/* Background halaman */
+body {
+    background: linear-gradient(135deg, #eaf2f5, #d4e3e9);
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    color: #243746;
+    line-height: 1.8;
+}
+
+/* Bagian nama */
+body > .biru {
+    background: linear-gradient(135deg, #0b516d, #123c55);
+    color: #ffffff;
+    border: none;
+    padding: 45px 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(11, 81, 109, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Nama */
+body > .biru h1 {
+    color: #ffffff;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+/* Pekerjaan */
+body > .biru h2 {
+    color: #e8c978;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Bagian tentang saya */
+.bg-biru {
+    background: #ffffff;
+    color: #405466;
+    padding: 30px !important;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    border-left: 5px solid #c5a45b;
+}
+
+/* Judul bagian */
+.bg-biru h2,
+body > div:last-child h2 {
+    color: #0b516d;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* Garis bawah judul */
+.bg-biru h2::after,
+body > div:last-child h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: #c5a45b;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+/* Paragraf */
+p {
+    color: #627482;
+    line-height: 1.9;
+}
+
+/* Bagian pendidikan */
+body > div:last-child {
+    background: #ffffff;
+    padding: 30px !important;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Nama sekolah dan kampus */
+body > div:last-child h3 {
+    color: #0b516d;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    border-left: 3px solid #c5a45b;
+}
+
+/* Nilai pendidikan */
+body > div:last-child p {
+    padding-left: 18px;
+    font-size: 14px;
+}
+
+/* Nilai rata-rata */
+span {
+    color: #b18a35;
+    font-weight: bold;
+}
+
+/* Efek hover */
+.bg-biru,
+body > div:last-child {
+    transition: 0.3s ease;
+}
+
+.bg-biru:hover,
+body > div:last-child:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(11, 81, 109, 0.12);
+}
+
+/* Tampilan HP */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    body > .biru {
+        padding: 30px 22px;
+    }
+
+    body > .biru h1 {
+        font-size: 30px;
+    }
+
+    .bg-biru,
+    body > div:last-child {
+        padding: 22px !important;
+    }
+
+    .bg-biru h2,
+    body > div:last-child h2 {
+        font-size: 20px;
+    }
+}
